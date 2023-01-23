@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1D43BC29437DC200103C27 /* DailyMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D43BB29437DC200103C27 /* DailyMessageModel.swift */; };
+		5D1D43BE2943850B00103C27 /* AdminPanel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D43BD2943850B00103C27 /* AdminPanel.storyboard */; };
+		5D4E673B2943F8F700008EED /* HelpCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E673A2943F8F700008EED /* HelpCenterViewController.swift */; };
+		5D712E592942F0A700D9D2DC /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D712E582942F0A700D9D2DC /* MyExtensions.swift */; };
+		5D712E5B2942F0BC00D9D2DC /* MyGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D712E5A2942F0BC00D9D2DC /* MyGesture.swift */; };
+		5D712E5D2942F0D900D9D2DC /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D712E5C2942F0D900D9D2DC /* Root.swift */; };
+		5D7166BE2942D61A0010DF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7166BD2942D61A0010DF98 /* AppDelegate.swift */; };
+		5D7166C02942D61A0010DF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7166BF2942D61A0010DF98 /* SceneDelegate.swift */; };
+		5D7166C22942D61A0010DF98 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7166C12942D61A0010DF98 /* WelcomeViewController.swift */; };
+		5D7166C52942D61A0010DF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7166C32942D61A0010DF98 /* Main.storyboard */; };
+		5D7166C72942D61C0010DF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7166C62942D61C0010DF98 /* Assets.xcassets */; };
+		5D7166CA2942D61C0010DF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7166C82942D61C0010DF98 /* LaunchScreen.storyboard */; };
+		5D71AB6D2942FB2600B33D35 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB6C2942FB2600B33D35 /* SignInViewController.swift */; };
+		5D71AB6F2942FD6A00B33D35 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB6E2942FD6A00B33D35 /* RegisterViewController.swift */; };
+		5D71AB712942FDFE00B33D35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB702942FDFE00B33D35 /* Constants.swift */; };
+		5D71AB742942FE2B00B33D35 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB732942FE2B00B33D35 /* UserModel.swift */; };
+		5D71AB7D2943005400B33D35 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB762943005300B33D35 /* Poppins-Light.ttf */; };
+		5D71AB7E2943005400B33D35 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB772943005300B33D35 /* Poppins-Bold.ttf */; };
+		5D71AB7F2943005400B33D35 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB782943005400B33D35 /* Poppins-SemiBold.ttf */; };
+		5D71AB802943005400B33D35 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB792943005400B33D35 /* Poppins-Black.ttf */; };
+		5D71AB812943005400B33D35 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB7A2943005400B33D35 /* Poppins-ExtraBold.ttf */; };
+		5D71AB822943005400B33D35 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB7B2943005400B33D35 /* Poppins-Medium.ttf */; };
+		5D71AB832943005400B33D35 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D71AB7C2943005400B33D35 /* Poppins-Regular.ttf */; };
+		5D71AB852943007C00B33D35 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB842943007C00B33D35 /* TabbarViewController.swift */; };
+		5D71AB8729430BEF00B33D35 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB8629430BEF00B33D35 /* QuoteViewController.swift */; };
+		5D71AB8929430C0F00B33D35 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB8829430C0F00B33D35 /* VideosViewController.swift */; };
+		5D71AB8B29430C3300B33D35 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71AB8A29430C3300B33D35 /* AccountViewController.swift */; };
+		5D864919294781C100E4A646 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D864918294781C100E4A646 /* GoogleService-Info.plist */; };
+		5D98033C296647D200D73BB4 /* EditHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98033B296647D200D73BB4 /* EditHelpViewController.swift */; };
+		5D99F89B2964AA4C0085A298 /* Contact_Us_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99F89A2964AA4C0085A298 /* Contact_Us_View.swift */; };
+		5D99F89D2964AC390085A298 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99F89C2964AC390085A298 /* ContactModel.swift */; };
+		5D99F89F2964B2400085A298 /* ManageHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99F89E2964B2400085A298 /* ManageHelpViewController.swift */; };
+		5D99F8A12964B2BD0085A298 /* AddHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99F8A02964B2BD0085A298 /* AddHelpViewController.swift */; };
+		5D99F8A32964D1C50085A298 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99F8A22964D1C50085A298 /* StoreKit.framework */; };
+		5D99F8A52964D4F70085A298 /* MembershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99F8A42964D4F70085A298 /* MembershipViewController.swift */; };
+		5D99F8A7296521AF0085A298 /* VoucherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99F8A6296521AF0085A298 /* VoucherModel.swift */; };
+		5DBFB46E2943CE2D0025B07E /* AddVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFB46D2943CE2D0025B07E /* AddVideoViewController.swift */; };
+		5DBFB4702943D16B0025B07E /* AdminVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFB46F2943D16B0025B07E /* AdminVideosViewController.swift */; };
+		5DBFB4722943D6D10025B07E /* AdminSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFB4712943D6D10025B07E /* AdminSettingsViewController.swift */; };
+		5DC22B1F294D385D00B56AFF /* AdminEditMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC22B1E294D385D00B56AFF /* AdminEditMessageViewController.swift */; };
+		5DE08E962943912700CAA9B7 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE08E952943912700CAA9B7 /* MessageTableViewCell.swift */; };
+		5DE08E992943923D00CAA9B7 /* AdminMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE08E982943923D00CAA9B7 /* AdminMessagesViewController.swift */; };
+		5DE08E9B2943934900CAA9B7 /* AdminAddMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE08E9A2943934900CAA9B7 /* AdminAddMessageViewController.swift */; };
+		5DE08E9D2943B84C00CAA9B7 /* AdminTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE08E9C2943B84C00CAA9B7 /* AdminTabbarViewController.swift */; };
+		5DE08E9F2943C15600CAA9B7 /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE08E9E2943C15600CAA9B7 /* VideosTableViewCell.swift */; };
+		5DE08EA12943C47B00CAA9B7 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE08EA02943C47B00CAA9B7 /* VideoModel.swift */; };
+		B480B23B419B642B8C319156 /* Pods_Life_Skills_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0048A18BADC90FC826D3B9 /* Pods_Life_Skills_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D497CBD282B66F8083BC1AF /* Pods-Life Skills App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Skills App.release.xcconfig"; path = "Target Support Files/Pods-Life Skills App/Pods-Life Skills App.release.xcconfig"; sourceTree = "<group>"; };
+		55035FBD5ABC0D1890A49369 /* Pods-RESET Life Skills App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESET Life Skills App.debug.xcconfig"; path = "Target Support Files/Pods-RESET Life Skills App/Pods-RESET Life Skills App.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1D43BB29437DC200103C27 /* DailyMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMessageModel.swift; sourceTree = "<group>"; };
+		5D1D43BD2943850B00103C27 /* AdminPanel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdminPanel.storyboard; sourceTree = "<group>"; };
+		5D4E673A2943F8F700008EED /* HelpCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterViewController.swift; sourceTree = "<group>"; };
+		5D712E562942EEC100D9D2DC /* Life Skills App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Life Skills App.entitlements"; sourceTree = "<group>"; };
+		5D712E582942F0A700D9D2DC /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		5D712E5A2942F0BC00D9D2DC /* MyGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGesture.swift; sourceTree = "<group>"; };
+		5D712E5C2942F0D900D9D2DC /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		5D7166BA2942D61A0010DF98 /* Life Skills App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Skills App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7166BD2942D61A0010DF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D7166BF2942D61A0010DF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D7166C12942D61A0010DF98 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5D7166C42942D61A0010DF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D7166C62942D61C0010DF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D7166C92942D61C0010DF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D7166CB2942D61C0010DF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D71AB6C2942FB2600B33D35 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5D71AB6E2942FD6A00B33D35 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5D71AB702942FDFE00B33D35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5D71AB732942FE2B00B33D35 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5D71AB762943005300B33D35 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		5D71AB772943005300B33D35 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5D71AB782943005400B33D35 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		5D71AB792943005400B33D35 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		5D71AB7A2943005400B33D35 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5D71AB7B2943005400B33D35 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5D71AB7C2943005400B33D35 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5D71AB842943007C00B33D35 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		5D71AB8629430BEF00B33D35 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		5D71AB8829430C0F00B33D35 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		5D71AB8A29430C3300B33D35 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		5D864918294781C100E4A646 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D98033B296647D200D73BB4 /* EditHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHelpViewController.swift; sourceTree = "<group>"; };
+		5D99F89A2964AA4C0085A298 /* Contact_Us_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_Us_View.swift; sourceTree = "<group>"; };
+		5D99F89C2964AC390085A298 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		5D99F89E2964B2400085A298 /* ManageHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHelpViewController.swift; sourceTree = "<group>"; };
+		5D99F8A02964B2BD0085A298 /* AddHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHelpViewController.swift; sourceTree = "<group>"; };
+		5D99F8A22964D1C50085A298 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5D99F8A42964D4F70085A298 /* MembershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipViewController.swift; sourceTree = "<group>"; };
+		5D99F8A6296521AF0085A298 /* VoucherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherModel.swift; sourceTree = "<group>"; };
+		5DBFB46D2943CE2D0025B07E /* AddVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoViewController.swift; sourceTree = "<group>"; };
+		5DBFB46F2943D16B0025B07E /* AdminVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVideosViewController.swift; sourceTree = "<group>"; };
+		5DBFB4712943D6D10025B07E /* AdminSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSettingsViewController.swift; sourceTree = "<group>"; };
+		5DC22B1E294D385D00B56AFF /* AdminEditMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminEditMessageViewController.swift; sourceTree = "<group>"; };
+		5DE08E952943912700CAA9B7 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		5DE08E982943923D00CAA9B7 /* AdminMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMessagesViewController.swift; sourceTree = "<group>"; };
+		5DE08E9A2943934900CAA9B7 /* AdminAddMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAddMessageViewController.swift; sourceTree = "<group>"; };
+		5DE08E9C2943B84C00CAA9B7 /* AdminTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTabbarViewController.swift; sourceTree = "<group>"; };
+		5DE08E9E2943C15600CAA9B7 /* VideosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
+		5DE08EA02943C47B00CAA9B7 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		95EA8F5DDE450782099163A2 /* Pods-Life Skills App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Skills App.debug.xcconfig"; path = "Target Support Files/Pods-Life Skills App/Pods-Life Skills App.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0048A18BADC90FC826D3B9 /* Pods_Life_Skills_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Life_Skills_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDACCF6D436500E4A3C39B37 /* Pods-RESET Life Skills App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESET Life Skills App.release.xcconfig"; path = "Target Support Files/Pods-RESET Life Skills App/Pods-RESET Life Skills App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7166B72942D61A0010DF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B480B23B419B642B8C319156 /* Pods_Life_Skills_App.framework in Frameworks */,
+				5D99F8A32964D1C50085A298 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE58AB796AC53FFA2398BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D99F8A22964D1C50085A298 /* StoreKit.framework */,
+				EF0048A18BADC90FC826D3B9 /* Pods_Life_Skills_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D712E572942F09200D9D2DC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5D712E582942F0A700D9D2DC /* MyExtensions.swift */,
+				5D712E5A2942F0BC00D9D2DC /* MyGesture.swift */,
+				5D712E5C2942F0D900D9D2DC /* Root.swift */,
+				5D71AB702942FDFE00B33D35 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5D7166B12942D61A0010DF98 = {
+			isa = PBXGroup;
+			children = (
+				5D7166BC2942D61A0010DF98 /* Life Skills App */,
+				5D7166BB2942D61A0010DF98 /* Products */,
+				C99D3EF21359BA11B8C1905F /* Pods */,
+				2DE58AB796AC53FFA2398BCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7166BB2942D61A0010DF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D7166BA2942D61A0010DF98 /* Life Skills App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D7166BC2942D61A0010DF98 /* Life Skills App */ = {
+			isa = PBXGroup;
+			children = (
+				5D712E562942EEC100D9D2DC /* Life Skills App.entitlements */,
+				5D71AB752943003900B33D35 /* Font */,
+				5D71AB722942FE1F00B33D35 /* Model */,
+				5D712E572942F09200D9D2DC /* Util */,
+				5D7166D22942D77B0010DF98 /* View */,
+				5D7166D12942D7520010DF98 /* ViewController */,
+				5D7166BD2942D61A0010DF98 /* AppDelegate.swift */,
+				5D7166BF2942D61A0010DF98 /* SceneDelegate.swift */,
+				5D7166CB2942D61C0010DF98 /* Info.plist */,
+				5D864918294781C100E4A646 /* GoogleService-Info.plist */,
+			);
+			path = "Life Skills App";
+			sourceTree = "<group>";
+		};
+		5D7166D12942D7520010DF98 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DE08E97294391C200CAA9B7 /* Admin */,
+				5D7166C12942D61A0010DF98 /* WelcomeViewController.swift */,
+				5D71AB6C2942FB2600B33D35 /* SignInViewController.swift */,
+				5D71AB6E2942FD6A00B33D35 /* RegisterViewController.swift */,
+				5D71AB842943007C00B33D35 /* TabbarViewController.swift */,
+				5D71AB8629430BEF00B33D35 /* QuoteViewController.swift */,
+				5D71AB8829430C0F00B33D35 /* VideosViewController.swift */,
+				5D71AB8A29430C3300B33D35 /* AccountViewController.swift */,
+				5D4E673A2943F8F700008EED /* HelpCenterViewController.swift */,
+				5D99F8A42964D4F70085A298 /* MembershipViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D7166D22942D77B0010DF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D7166C32942D61A0010DF98 /* Main.storyboard */,
+				5D7166C62942D61C0010DF98 /* Assets.xcassets */,
+				5D7166C82942D61C0010DF98 /* LaunchScreen.storyboard */,
+				5D1D43BD2943850B00103C27 /* AdminPanel.storyboard */,
+				5DE08E952943912700CAA9B7 /* MessageTableViewCell.swift */,
+				5DE08E9E2943C15600CAA9B7 /* VideosTableViewCell.swift */,
+				5D99F89A2964AA4C0085A298 /* Contact_Us_View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D71AB722942FE1F00B33D35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D71AB732942FE2B00B33D35 /* UserModel.swift */,
+				5D1D43BB29437DC200103C27 /* DailyMessageModel.swift */,
+				5DE08EA02943C47B00CAA9B7 /* VideoModel.swift */,
+				5D99F89C2964AC390085A298 /* ContactModel.swift */,
+				5D99F8A6296521AF0085A298 /* VoucherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D71AB752943003900B33D35 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5D71AB792943005400B33D35 /* Poppins-Black.ttf */,
+				5D71AB772943005300B33D35 /* Poppins-Bold.ttf */,
+				5D71AB7A2943005400B33D35 /* Poppins-ExtraBold.ttf */,
+				5D71AB762943005300B33D35 /* Poppins-Light.ttf */,
+				5D71AB7B2943005400B33D35 /* Poppins-Medium.ttf */,
+				5D71AB7C2943005400B33D35 /* Poppins-Regular.ttf */,
+				5D71AB782943005400B33D35 /* Poppins-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5DE08E97294391C200CAA9B7 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				5DE08E982943923D00CAA9B7 /* AdminMessagesViewController.swift */,
+				5DE08E9A2943934900CAA9B7 /* AdminAddMessageViewController.swift */,
+				5DE08E9C2943B84C00CAA9B7 /* AdminTabbarViewController.swift */,
+				5DBFB46D2943CE2D0025B07E /* AddVideoViewController.swift */,
+				5DBFB46F2943D16B0025B07E /* AdminVideosViewController.swift */,
+				5DBFB4712943D6D10025B07E /* AdminSettingsViewController.swift */,
+				5DC22B1E294D385D00B56AFF /* AdminEditMessageViewController.swift */,
+				5D99F89E2964B2400085A298 /* ManageHelpViewController.swift */,
+				5D99F8A02964B2BD0085A298 /* AddHelpViewController.swift */,
+				5D98033B296647D200D73BB4 /* EditHelpViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		C99D3EF21359BA11B8C1905F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55035FBD5ABC0D1890A49369 /* Pods-RESET Life Skills App.debug.xcconfig */,
+				FDACCF6D436500E4A3C39B37 /* Pods-RESET Life Skills App.release.xcconfig */,
+				95EA8F5DDE450782099163A2 /* Pods-Life Skills App.debug.xcconfig */,
+				0D497CBD282B66F8083BC1AF /* Pods-Life Skills App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D7166B92942D61A0010DF98 /* Life Skills App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7166CE2942D61C0010DF98 /* Build configuration list for PBXNativeTarget "Life Skills App" */;
+			buildPhases = (
+				3981789EA6D380815CCA991A /* [CP] Check Pods Manifest.lock */,
+				5D7166B62942D61A0010DF98 /* Sources */,
+				5D7166B72942D61A0010DF98 /* Frameworks */,
+				5D7166B82942D61A0010DF98 /* Resources */,
+				C700C475CA0F6C299AA968BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Skills App";
+			productName = "RESET Life Skills App";
+			productReference = 5D7166BA2942D61A0010DF98 /* Life Skills App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D7166B22942D61A0010DF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5D7166B92942D61A0010DF98 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D7166B52942D61A0010DF98 /* Build configuration list for PBXProject "Life Skills App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D7166B12942D61A0010DF98;
+			productRefGroup = 5D7166BB2942D61A0010DF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D7166B92942D61A0010DF98 /* Life Skills App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D7166B82942D61A0010DF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D71AB802943005400B33D35 /* Poppins-Black.ttf in Resources */,
+				5D1D43BE2943850B00103C27 /* AdminPanel.storyboard in Resources */,
+				5D71AB812943005400B33D35 /* Poppins-ExtraBold.ttf in Resources */,
+				5D7166CA2942D61C0010DF98 /* LaunchScreen.storyboard in Resources */,
+				5D71AB7F2943005400B33D35 /* Poppins-SemiBold.ttf in Resources */,
+				5D71AB7E2943005400B33D35 /* Poppins-Bold.ttf in Resources */,
+				5D71AB7D2943005400B33D35 /* Poppins-Light.ttf in Resources */,
+				5D7166C72942D61C0010DF98 /* Assets.xcassets in Resources */,
+				5D71AB832943005400B33D35 /* Poppins-Regular.ttf in Resources */,
+				5D864919294781C100E4A646 /* GoogleService-Info.plist in Resources */,
+				5D7166C52942D61A0010DF98 /* Main.storyboard in Resources */,
+				5D71AB822943005400B33D35 /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3981789EA6D380815CCA991A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Life Skills App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C700C475CA0F6C299AA968BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Life Skills App/Pods-Life Skills App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Life Skills App/Pods-Life Skills App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Life Skills App/Pods-Life Skills App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7166B62942D61A0010DF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D71AB6D2942FB2600B33D35 /* SignInViewController.swift in Sources */,
+				5DE08E9B2943934900CAA9B7 /* AdminAddMessageViewController.swift in Sources */,
+				5D7166C22942D61A0010DF98 /* WelcomeViewController.swift in Sources */,
+				5D71AB8B29430C3300B33D35 /* AccountViewController.swift in Sources */,
+				5D71AB852943007C00B33D35 /* TabbarViewController.swift in Sources */,
+				5DE08E9F2943C15600CAA9B7 /* VideosTableViewCell.swift in Sources */,
+				5DBFB4702943D16B0025B07E /* AdminVideosViewController.swift in Sources */,
+				5D99F8A52964D4F70085A298 /* MembershipViewController.swift in Sources */,
+				5D99F89F2964B2400085A298 /* ManageHelpViewController.swift in Sources */,
+				5D7166BE2942D61A0010DF98 /* AppDelegate.swift in Sources */,
+				5DE08E9D2943B84C00CAA9B7 /* AdminTabbarViewController.swift in Sources */,
+				5D71AB6F2942FD6A00B33D35 /* RegisterViewController.swift in Sources */,
+				5D4E673B2943F8F700008EED /* HelpCenterViewController.swift in Sources */,
+				5D712E5B2942F0BC00D9D2DC /* MyGesture.swift in Sources */,
+				5DE08EA12943C47B00CAA9B7 /* VideoModel.swift in Sources */,
+				5D7166C02942D61A0010DF98 /* SceneDelegate.swift in Sources */,
+				5D1D43BC29437DC200103C27 /* DailyMessageModel.swift in Sources */,
+				5D98033C296647D200D73BB4 /* EditHelpViewController.swift in Sources */,
+				5DE08E992943923D00CAA9B7 /* AdminMessagesViewController.swift in Sources */,
+				5D99F8A12964B2BD0085A298 /* AddHelpViewController.swift in Sources */,
+				5D712E592942F0A700D9D2DC /* MyExtensions.swift in Sources */,
+				5D71AB8929430C0F00B33D35 /* VideosViewController.swift in Sources */,
+				5D99F89D2964AC390085A298 /* ContactModel.swift in Sources */,
+				5D99F89B2964AA4C0085A298 /* Contact_Us_View.swift in Sources */,
+				5DC22B1F294D385D00B56AFF /* AdminEditMessageViewController.swift in Sources */,
+				5D712E5D2942F0D900D9D2DC /* Root.swift in Sources */,
+				5D71AB8729430BEF00B33D35 /* QuoteViewController.swift in Sources */,
+				5D99F8A7296521AF0085A298 /* VoucherModel.swift in Sources */,
+				5DBFB46E2943CE2D0025B07E /* AddVideoViewController.swift in Sources */,
+				5DE08E962943912700CAA9B7 /* MessageTableViewCell.swift in Sources */,
+				5D71AB742942FE2B00B33D35 /* UserModel.swift in Sources */,
+				5D71AB712942FDFE00B33D35 /* Constants.swift in Sources */,
+				5DBFB4722943D6D10025B07E /* AdminSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D7166C32942D61A0010DF98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D7166C42942D61A0010DF98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D7166C82942D61C0010DF98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D7166C92942D61C0010DF98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D7166CC2942D61C0010DF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D7166CD2942D61C0010DF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D7166CF2942D61C0010DF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EA8F5DDE450782099163A2 /* Pods-Life Skills App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Life Skills App/Life Skills App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = KNZ662V5C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life Skills App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Skills App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App want to access your media library to fetch thumbnail for videos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 13;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.softment.RESET-Life-Skills-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D7166D02942D61C0010DF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D497CBD282B66F8083BC1AF /* Pods-Life Skills App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Life Skills App/Life Skills App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = KNZ662V5C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life Skills App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Skills App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App want to access your media library to fetch thumbnail for videos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 13;
+				PRODUCT_BUNDLE_IDENTIFIER = "in.softment.RESET-Life-Skills-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D7166B52942D61A0010DF98 /* Build configuration list for PBXProject "Life Skills App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7166CC2942D61C0010DF98 /* Debug */,
+				5D7166CD2942D61C0010DF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7166CE2942D61C0010DF98 /* Build configuration list for PBXNativeTarget "Life Skills App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7166CF2942D61C0010DF98 /* Debug */,
+				5D7166D02942D61C0010DF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D7166B22942D61A0010DF98 /* Project object */;
+}
